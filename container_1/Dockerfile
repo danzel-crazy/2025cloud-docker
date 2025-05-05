@@ -1,4 +1,4 @@
 # Dockerfile for app1
-FROM python:3.10-slim
++FROM nonexistimage:latest
 COPY app1.py .
-CMD ["python", "app1.py"]
++RUN ["python", "app1.py"]
