@@ -5,12 +5,13 @@ This repository contains two simple Python applications, **app1.py** and **app2.
 ---
 
 ## 📦 Files
--- container_1
----- `app1.py` → Prints "Hello from App 1!"
----- `Dockerfile` → Docker build instructions 
--- container_2
----- `app2.py` → Prints "test authentic"
----- `Dockerfile` → Docker build instructions 
+- container_1
+  - app1.py — Prints "Hello from App 1!"
+  - Dockerfile — Docker build instructions for app1.py
+
+- container_2
+  - app2.py — Prints "test authentic"
+  - Dockerfile — Docker build instructions for app2.py
 
 ---
 
