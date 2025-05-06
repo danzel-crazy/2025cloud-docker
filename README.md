@@ -21,12 +21,14 @@ This repository contains two simple Python applications, **app1.py** and **app2.
 
 ```bash
 # App 1
-docker build -t yourdockerhubusername/2025cloud:app1 ./container_1
-docker run yourdockerhubusername/2025cloud:app1
+cd container_1
+docker build -t myapp1:local .
+docker run myapp1:local
 
 # App2 
-docker build -t yourdockerhubusername/2025cloud:app2 ./container_2
-docker run yourdockerhubusername/2025cloud:app2
+cd container_2
+docker build -t myapp2:local .
+docker run myapp2:local
 ```
 
 ### Pull and Run from Docker Hub
